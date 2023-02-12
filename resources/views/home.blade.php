@@ -10,6 +10,11 @@
 
 </head>
 <body>
+    <div class="container">
+        <h1 class="text-center p-5">Laravel Trains</h1>
+    </div>
+    
+    
     
 </body>
 </html>
