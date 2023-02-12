@@ -11,8 +11,8 @@ class TrainController extends Controller
 {
     public function index()
     {
-        $trains = Train::all();
-        dump($trains);
+        $trains = Train::where('departure_hour', 'LIKE', '2023-02-10%')->get();
+        //dump($trains);
         return view('home', compact('trains'));
     }
 }
